@@ -19,7 +19,7 @@ const privateCors =
     cors({
 
         origin: [
-            "http://localhost:5173"
+            "https://mernai-h4no.onrender.com"
         ],
 
         credentials: true

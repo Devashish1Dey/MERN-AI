@@ -16,7 +16,7 @@
 
     link.rel = "stylesheet"
 
-    link.href = "http://localhost:5173/assistant.css"
+    link.href = "https://mernai-h4no.onrender.com/assistant.css"
 
     document.head.appendChild(link)
 
@@ -75,7 +75,7 @@
         <div class="shifra-bottom">
 
             <button class="shifra-mic">
-                <img src="http://localhost:5173/mic.svg" alt="mic" class="shifra-mic-icon"/>
+                <img src="https://mernai-h4no.onrender.com/mic.svg" alt="mic" class="shifra-mic-icon"/>
             </button>
         </div>
 
@@ -90,7 +90,7 @@
     button.className = `shifra-btn theme-${theme}`
 
     button.innerHTML = `
-    <img src="http://localhost:5173/ShifraAI_logo.svg" alt="logo" />`
+    <img src="https://mernai-h4no.onrender.com/ShifraAI_logo.svg" alt="logo" />`
 
     document.body.appendChild(button)
 
